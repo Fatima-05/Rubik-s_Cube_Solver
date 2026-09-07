@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files (too large for git)
+*.tflite
+*.h5
+*.hdf5
+*.pb
+*.weights
+*.ckpt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
