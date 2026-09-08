@@ -31,3 +31,10 @@ build/
 # OS
 Thumbs.db
 .DS_Store
+
+# Regenerable dataset images (exported from HuggingFace OBB)
+data/real/
+data/dev/*.jpg
+!data/dev/017_objs17.jpg
+!data/dev/018_objs17.jpg
+!data/dev/019_objs10.jpg
